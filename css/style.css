@@ -37,7 +37,7 @@ ul, li {
 }
 
 .login__icon {
-	background: url('../background/login.png');
+	background: url('/background/login.png');
 	width: 34px;
 	height: 34px;
 	display: block;
