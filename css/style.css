@@ -1,0 +1,78 @@
+body {
+	font-family: 'Sintony', sans-serif;
+	color: #5c6369;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	margin-top: 26px;
+}
+
+.menu__item {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.menu__item a {
+	color: #2c465a;
+	text-transform: uppercase;
+}
+
+.login {
+	background: #fea100;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	cursor: pointer;
+	width: 150px;
+	border: none;
+}
+
+.main-header {
+	
+}
+
+.login {
+	margin-top: 16px;
+	margin-left: 200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif; 
+	font-weight: 700;
+	color: black;
+}
+
+.offer {
+	background: url(/background/offer.jpg) no-repeat fixed center top;
+	background-size: 100%;
+}
+
+.title {
+	padding: 220px 0;
+}
+
+.title__heading {
+	font-size: 46px;
+	color: white; 
+}
+
+.title__desc {
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: white;
+	margin-top: -15px;  
+}
+
+.title__desc span {
+	color: #fea100;
+}
