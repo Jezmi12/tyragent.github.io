@@ -10,7 +10,7 @@ ul, li {
 }
 
 .menu {
-
+	margin-top: 26px;
 }
 
 .menu__item {
@@ -36,9 +36,43 @@ ul, li {
 	border: none;
 }
 
-.login__icon {
-	background: url('../background/login.png');
-	width: 34px;
-	height: 34px;
-	display: block;
+.main-header {
+	
+}
+
+.login {
+	margin-top: 16px;
+	margin-left: 200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif; 
+	font-weight: 700;
+	color: black;
+}
+
+.offer {
+	background: url(../background/offer.jpg) no-repeat fixed center top;
+	background-size: 100%;
+}
+
+.title {
+	padding: 220px 0;
+}
+
+.title__heading {
+	font-size: 46px;
+	color: white; 
+}
+
+.title__desc {
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: white;
+	margin-top: -15px;  
+}
+
+.title__desc span {
+	color: #fea100;
 }
