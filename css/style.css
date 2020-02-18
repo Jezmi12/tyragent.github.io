@@ -1,0 +1,44 @@
+body {
+	font-family: 'Sintony', sans-serif;
+	color: #5c6369;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+
+}
+
+.menu__item {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.menu__item a {
+	color: #2c465a;
+	text-transform: uppercase;
+}
+
+.login {
+	background: #fea100;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	cursor: pointer;
+	width: 150px;
+	border: none;
+}
+
+.login__icon {
+	background: url('../background/login.png');
+	width: 34px;
+	height: 34px;
+	display: block;
+}
