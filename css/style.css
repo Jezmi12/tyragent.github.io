@@ -37,7 +37,7 @@ ul, li {
 }
 
 .main-header {
-	
+	position: fixed;
 }
 
 .login {
