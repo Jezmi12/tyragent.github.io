@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offer {
-	background: url(../background/offer.jpg) no-repeat fixed center;
+	background: url(../background/offer.jpg) no-repeat fixed center top;
 	background-size: 100%;
 }
 
