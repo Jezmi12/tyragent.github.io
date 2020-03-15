@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jQuery.js"></script>
 </head>
 <body>
 	<header id="header" class="header">
@@ -20,36 +22,39 @@
 							<ul class="menu d-flex justify-content-between">
 								<li class="menu__item">
 									<a href="#">
-										Home
+										Главная
 									</a>
 								</li>
 								<li class="menu__item">
 									<a href="#">
-										Tours
+										Туры
 									</a>
 								</li>
 								<li class="menu__item">
 									<a href="#">
-										Currency
+										Валюта
 									</a>
 								</li>
 								<li class="menu__item">
 									<a href="#">
-										List
+										Прайс-Лист
 									</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
 					<div class="col-lg-3">
-						<button class="login d-flex  justify-content-center">
-							<span class="login__icon"><img src="background/vhod.jpg"></span>
-							Login in
+						<div class="login">
+						<button class="cta d-flex justify-content-center"><span class="cta__icon">
+							<img src="background/login3.png" alt="#"></span>
+							Войти
 						</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+  </div>
 		<div class="offer">
 			<div class="container">
 				<div class="row">
@@ -71,10 +76,14 @@
 			</div>
 		</div>
 	</header>
-
 	<section id="countries" class="countries">
 		<div class="container">
 			<div class="row">
+					<div class="ribbons-wrapper">
+						<div class="ribbon">
+							<span class="ribbon1"><span>Скидка 5%</span></span>
+	    				</div>
+	    			</div>
 				<div class="phone d-flex ml-auto mr-auto">
 					<div class="phone__text">
 						Позвоните нам и закажите путевку
@@ -89,29 +98,42 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<section id="stocks" class="stocks">
 		<div class="container">
-			<div class="offer">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="title">
-							<h1 class="title__heading">
-								Купи путевку прямо сейчас!
-							</h1>
-							<p class="title__desc">
-								Вперед 
-								<span class="yellow">
-								за мечтой
-								</span>
-								!
-							</p>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="gallery">
+						<h2 class="gallery__title">
+							Информация о ТУРЕ
+						</h2>
+						<p class="gallery__text">
+Круглый год ждет туристов эта замечательная страна - настоящий рай на земле! Туры в Таиланд - это чистейший океан, великолепные пляжи, тропические пейзажи, яркие фестивали и т.д.
+Отдых в Таиланде начинается на великолепных пляжах многочисленных островов. Холмы и джунгли, подводные скалы и разнообразие морской флоры и фауны привлекают на Пхукет. Здесь вам предложат морскую экскурсию вдоль залива, гонки на яхтах, виндсерфинг, водные лыжи, подводное плавание.<br>
+<span>
+Успей заказать путевку через нашего чат-бота в Telegram или Facebook.</span>
+						</p>
+						<div class="but d-flex">
+						<a href="#" class="cta gallery__botton d-flex justify-content-center">
+							Facebook
+						</a>
+						<a href="#" class="cta gallery__botton d-flex justify-content-center">
+							Telegram
+						</a>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-3">
+					<div class="tailand-images tailand-images__down">
+						<img src="background/1-1.png" alt="Tailand" class="tailand-images__item img-fluid">
+						<img src="background/1-2.jpg" alt="Tailand" class="tailand-images__item img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<img src="background/1-3.jpg" alt="Tailand" class="tailand-images__item img-fluid">
+					<img src="background/1-4.png" alt="Tailand" class="tailand-images__item img-fluid">
+				</div>	
 			</div>
-		</div>
 		</div>
 	</section>
 
@@ -119,6 +141,7 @@
 		<div class="container">
 			
 		</div>
+	</section>
 		<script src="https://widget.flowxo.com/embed.js" data-fxo-widget="eyJ0aGVtZSI6IiMyYjA1ZWQiLCJ3ZWIiOnsiYm90SWQiOiI1ZTRjZDlkOGNmNTIwMTAwMzg5ODMyYjgiLCJ0aGVtZSI6IiMyYjA1ZWQifX0=" async defer></script>
 </body>
 </html>
