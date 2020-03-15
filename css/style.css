@@ -1,3 +1,7 @@
+* {
+	cursor: url('../background/curs.jpg');
+}
+
 body {
 	font-family: 'Sintony', sans-serif;
 	color: #5c6369;
@@ -20,37 +24,63 @@ ul, li {
 .menu__item {
 	font-weight: 700;
 	font-size: 14px;
+	transition: 1.0s;
 }
 
 .menu__item a {
 	color: #2c465a;
 	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.menu__item:hover {
+	font-size: 16px;
+	transition: 0.3s;
 }
 
 .login {
+	margin-top: 16px;
+	margin-left: 200px;
+}
+
+.cta {
 	background: #fea100;
 	color: white;
 	font-size: 14px;
 	font-weight: 700;
-	border-radius: 3px;
+	border-radius: 5px;
 	text-transform: uppercase;
-	padding: 10px 0;
+	padding: 10px 0px;
 	cursor: pointer;
 	width: 150px;
 	border: none;
+	transition: 0.6s;
+	text-decoration: none;
+	text-align: center;
+}
+
+.cta__icon {
+	margin-right: 10px; 
+}
+
+.cta:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: 0.6s;
+	text-decoration: none;
+	color: #fff;
 }
 
 .main-header {
 	z-index: 1;
 	height: 75px;
 	width: 100%;
-	background: #fdfdfd;
-	position: fixed;	
+	background: white;
+	position: fixed;
+	box-shadow: 0 0 15px rgba(0,0,0,0.8);
 }
 
-.login {
-	margin-top: 16px;
-	margin-left: 200px;
+p {
+	line-height: 1.8em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offer {
-	background: url(../background/offer.jpg) no-repeat fixed center top;
+	background: url(../background/offer.jpg) no-repeat fixed center top; 
 	background-size: 100%;
 }
 
@@ -89,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .phone {
-	width: 680px;
+	width: 750px;
 }
 
 .phone__text {
@@ -114,6 +144,97 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	color: #14141d;
-	margin-left: 42px;
+	margin-left: 25px;
 	padding-top: -20px;
+}
+
+/*
+Ленточка
+*/
+
+.ribbons-wrapper {
+  margin-top: -36px;
+  right: 20px;
+}
+.ribbon1:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-top: 10px solid #F8463F;
+}
+.ribbon1 span {
+  position: relative;
+  display: block;
+  text-align: center;
+  background: #F8463F;
+  font-size: 14px;
+  line-height: 1;
+  padding: 12px 8px 10px;
+  border-top-right-radius: 8px ;
+  width: 110px;
+  margin: 0;
+  color: white;
+  font-size: 15px;	
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.ribbon1 span:before, .ribbon1 span:after {
+  position: absolute;
+  content: "";
+}
+.ribbon1 span:before {
+ height: 6px;
+ width: 6px;
+ left: -6px;
+ top: 0;
+ background: #F8463F;
+}
+.ribbon1 span:after {
+ height: 6px;
+ width: 8px;
+ left: -8px;
+ top: 0;
+ border-radius: 8px 8px 0 0;
+ background: #C02031;
+}
+
+/*
+Конец ленточки
+*/
+
+.stocks {
+	padding: 65px 0 100px;
+}
+
+.gallery {
+	margin-top: 60px;
+}
+
+.gallery__title {
+	font-size: 36px;
+}
+
+.gallery__text {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.gallery__botton {
+	width: 148px;
+	margin-top: 48px;
+}
+
+.tailand-images {
+
+}
+
+.tailand-images__item {
+	margin-bottom: 10px; 
+}
+
+.tailand-images__down {
+	margin-top: 50px;
 }
