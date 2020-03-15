@@ -205,12 +205,16 @@ h1, h2, h3, h4, h5, h6 {
 Конец ленточки
 */
 
+.cta-left {
+	margin-left: 30px;
+}
+
 .stocks {
 	padding: 65px 0 100px;
 }
 
 .gallery {
-	margin-top: 60px;
+	margin-top: 43px;
 }
 
 .gallery__title {
@@ -219,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery__text {
 	font-size: 14px;
-	margin-bottom: 20px;
+	margin: 30px 0 0;
 }
 
 .gallery__botton {
