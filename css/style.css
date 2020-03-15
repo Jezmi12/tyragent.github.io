@@ -13,6 +13,10 @@ ul, li {
 	margin-top: 26px;
 }
 
+.yellow {
+	color: #fea100;
+}
+
 .menu__item {
 	font-weight: 700;
 	font-size: 14px;
@@ -61,10 +65,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-	padding: 220px 0;
+	padding: 200px 0;
 }
 
 .title__heading {
+	margin-top: 60px;  
 	font-size: 46px;
 	color: white; 
 }
@@ -77,6 +82,38 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: -15px;  
 }
 
-.title__desc span {
-	color: #fea100;
+.countries {
+	background: #edf1f3;
+	border-bottom: 1px solid #dde3e7;
+	padding: 30px 0;
+}
+
+.phone {
+	width: 680px;
+}
+
+.phone__text {
+	background: url(../background/phone.png) no-repeat left center;
+	color: #14141d;
+	font-size: 15.3px;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 400px;
+	padding-left: 56px;
+	padding-top: 5px;
+}
+
+.phone__text span {
+	font-size: 16px;
+	margin-top: -4px;
+	display: block;
+}		 	
+
+.phone_characters {
+	font-size: 28px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #14141d;
+	margin-left: 42px;
+	padding-top: -20px;
 }
