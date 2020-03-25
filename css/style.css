@@ -17,6 +17,10 @@ ul, li {
 	margin-top: 26px;
 }
 
+.logo {
+
+}
+
 .yellow {
 	color: #fea100;
 }
@@ -60,7 +64,8 @@ ul, li {
 }
 
 .cta__icon {
-	margin-right: 10px; 
+	margin-right: 10px;
+	margin-left: -20px; 
 }
 
 .cta:hover {
@@ -76,7 +81,7 @@ ul, li {
 	width: 100%;
 	background: white;
 	position: fixed;
-	box-shadow: 0 0 15px rgba(0,0,0,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 p {
@@ -94,8 +99,16 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: 100%;
 }
 
+.offers {
+	position: fixed;
+}
+
 .title {
 	padding: 200px 0;
+}
+
+.row {
+	
 }
 
 .title__heading {
@@ -149,7 +162,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
-Ленточка
+----------------
+   Ленточка 5%
+----------------
 */
 
 .ribbons-wrapper {
@@ -202,7 +217,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
-Конец ленточки
+----------------
+ Конец Ленточки
+----------------
 */
 
 .cta-left {
@@ -232,13 +249,132 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tailand-images {
-
+	
 }
 
 .tailand-images__item {
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	border-radius: 10px 10px 10px 10px;
 }
 
 .tailand-images__down {
 	margin-top: 50px;
+}
+
+/*
+---------------- 
+    Стрелка
+----------------
+*/
+
+.arrow {
+  position: relative;
+  margin: 20px 25px;
+  }
+  .arrow:before,
+  .arrow:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-right: 0;
+    }
+
+.arrow {
+  top: 40px;
+  left: 16px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fea100;
+  }
+  .arrow:before {
+    top: -7px;
+    left: -20px;
+    border: 15px solid transparent;
+    border-right-color: #fea100;
+    border-left: 0;
+    }
+  .arrow:after {
+      top: -7px;
+      right: -20px;
+      border: 15px solid transparent;
+      border-left-color: #fea100;
+      border-right: 0;
+      }
+
+/*
+---------------- 
+  Конец Стрелки
+----------------
+*/
+
+.tours {
+	background: url(../background/tours2.png) no-repeat center top;
+	padding-top: 80px;
+	height: 350px; 
+}
+
+.tours-title {
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+}
+
+.excursion {
+	text-align: center;
+	box-shadow: 0 10px 60px rgba(0,0,0,0.15);
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+.excursion__img {
+	margin-bottom: 45px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.excursion__title {
+	font-size: 26px;
+	margin-bottom: 10px; 
+}
+
+.excursion__desc {
+	font-size: 20px;
+	padding: 0 55px; 
+	font-family: 'Time New Roman', serif;
+	color: rgba(0,0,0,0.6);
+}
+
+.excursion__del {
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 78px;
+	border-right: 1px solid gray;
+	margin-right: 18px;
+	font-weight: 700;
+}
+
+.excursion__del span {
+	color: #fe4c8d;
+}
+
+.excursion__phone {
+	font-size: 26px;
+	font-family: 'Playfair Display', serif;
+	color: rgba(0,0,0,0.7);
+}
+
+.excursion__details {
+	border-top: 1px solid gray;
+	margin: 0 45px;
+	text-align: left;
+	padding: 19px 0;
+}
+
+.excursion__buttom {
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
 }
