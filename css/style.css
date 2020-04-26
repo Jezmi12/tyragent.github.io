@@ -48,7 +48,8 @@ ul, li {
 }
 
 .cta {
-	background: #fea100;
+    background: #fea100;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
 	color: white;
 	font-size: 14px;
 	font-weight: 700;
@@ -76,6 +77,7 @@ ul, li {
 }
 
 .main-header {
+
 	z-index: 1;
 	height: 75px;
 	width: 100%;
@@ -127,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: #edf1f3;
 	border-bottom: 1px solid #dde3e7;
 	padding: 30px 0;
+	box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
 }
 
 .phone {
@@ -176,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 0;
   border-left: 55px solid transparent;
   border-right: 55px solid transparent;
-  border-top: 10px solid #F8463F;
+  border-top: 10px solid #F8463F; 
 }
 .ribbon1 span {
   position: relative;
@@ -212,6 +215,7 @@ h1, h2, h3, h4, h5, h6 {
  top: 0;
  border-radius: 8px 8px 0 0;
  background: #C02031;
+
 }
 
 /*
@@ -313,7 +317,8 @@ h1, h2, h3, h4, h5, h6 {
 .tours {
 	background: url(../background/tours2.png) no-repeat center top;
 	padding-top: 80px;
-	height: 350px; 
+	height: 350px;
+
 }
 
 .tours-title {
@@ -392,6 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
+	box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
 	background: #373844;
 	color: #93989e;
 	font-size: 13px;
@@ -409,6 +415,14 @@ h1, h2, h3, h4, h5, h6 {
 	height: 52px;
 	border-radius: 50%;
 	display: block;
+	box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+.socials__item a:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: 0.6s;
+	text-decoration: none;
+	color: #fff;
 }
 
 .socials__item_fb a {
